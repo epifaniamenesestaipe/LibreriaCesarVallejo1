@@ -57,10 +57,14 @@ nav .menu li:hover{
 }
 .sub-menu.two li{
 	display: block;
+	
 }
 /*contenedor*/
 .contenedor h1{
 text-align: center;
+font-family: 'Bree Serif', serif;
+border-bottom: solid;
+color: #eb2e3b;
 }
 .contenedor.one{
 	margin-bottom: 500px;
@@ -209,11 +213,69 @@ footer{
 	font-family: 'Domine', serif;
 }
 /*search*/
+.head.shearch input,.head.shearch button {
+	padding: 10px;
+	border: 2px solid #eb2e3b;
+	border-radius: 6px;
+	margin: 0 0 30px;
 
+}
+.head.shearch input{
+	width: 250px;
+}
+.head.shearch button{
+	background: #eb2e3b;
+	cursor: pointer;
+}
+.head.shearch button:hover{
+	background: #c7454e;
+	border: 2px solid #c7454e;
+}
+.hea .head{
+	display: inline-block;
+    vertical-align: top;
+}
+.head.logo{
+	width: 70%;
+}
+.head.shearch{
+	margin-top: 50px;
+}
 @media only screen and (max-width: 600px) {
-	body {
+	/*body {
 		background: yellow;
+	}*/
+	nav .menu li {
+	display: block;
+	padding: 10px;
+	margin: 0px;
+	height: 10px;
+	border-radius: 10px;
+
 	}
+	.container-body{
+	display: block;
+	}
+	.container-footer-all .container-body{
+	padding-left: 0px;
+	}
+	.espmenu{
+	padding-left: 0px;
+	}
+	.area-items .items{
+	width: 30%;
+	display: inline-block;
+	padding-left: 30px;
+	border-right: solid;
+	color: #eb2e3b;
+	}
+	
+}
+@media only screen and (max-width: 600px) {
+	/*body{
+		background:purple;
+	}*/
+
 	.container-footer-all .container-body{
 		padding-left: 0px;
 	}
@@ -224,42 +286,134 @@ footer{
 		padding: 0px
 	}
 	.area-items .items {
-	    width: 35%;
+	    width: 40%;
 	    vertical-align: top;
+	    border: 0px;
 	    padding-bottom: 20px;
 	}
+	.parent {
+    background: #fff;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+	}
+	.parent .child-one {
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+}
+	.parent .child-two {
+	    width: 49%;
+	    display: block;
+	 }
+
 }
 @media only screen and (min-width: 600px) {
-	body {
-		background: blue;	
+	/*body{
+		background: blue;
+	}*/
+	nav .menu li {
+	display: block;
+	padding: 10px;
+	margin: 15px;
+	height: 30px;
+	border-radius: 10px;
+
 	}
 	.espmenu{
 		padding-left: 0px;
 	}	
 	.area-items .items {
-	    width: 35%;
+	    width: 40%;
 	    vertical-align: top;
+	    border: 0px;
 	    padding-bottom: 20px;
 	}
+	.container-footer-all .container-body {
+    padding-left: 0px;
+}
+.copy {
+    padding-left: 0px;
+}
 }
 @media only screen and (min-width: 678px) {
-	body {
+	/*body{
 		background: orange;
-	}
+	}*/
+	nav .menu li {
+	display: inline-block;
+	padding: 15px;
+
+	height: 50px;
+	border-radius: 10px;
+
+}
+	.area-items {
+    padding-left: 120px;
+    margin-top: 80px;
+    
+}
+ .area-items .items {
+	    width: 40%;
+	    }
+
+.container-footer-all .container-body {
+
+    padding-left: 200px;
+}
+.copy {
+    padding-left: 200px;
+}
 }
 @media only screen and (min-width: 992px) {
-	body {
-		background: orange;
-	
-}
+	/*body{
+		background: green;
+	}*/
+
+		.area-items {
+    padding-left: 200px;
+    margin-top: 80px;
+    
+	}
+
+	.container-footer-all .container-body {
+	    padding-left: 400px;
+	}
+	.copy {
+	    padding-left: 400px;
+	}
+	 .area-items .items {
+		    width: 40%;
+    }
+
+	}
 @media only screen and (min-width: 1200px) {
-	body {
-		background: white;
+	/*body{
+		background: pink;
+	}*/
+
+	.area-items {
+	    padding-left: 280px;
+	    margin-top: 80px;
+    }
+    .area-items .items {
+    	width: 40%;
+    }
+	.container-footer-all .container-body {
+	 	padding-left: 500px;
+	}
+	.copy {
+		padding-left: 100px;
+		text-align: center;
+	}
+	.area-items .items {
+	    width: 35%;
+	    vertical-align: top;
+	    border: 0px;
+	    padding-bottom: 20px;
 	}
 	.area-items .items{
-	width: 30%;
-	display: inline-block;
-	padding-left: 30px;
-	padding-bottom: 100px;
-}
-}
+		width: 30%;
+		display: inline-block;
+		padding-left: 10px;
+		padding-bottom: 100px;
+	}
