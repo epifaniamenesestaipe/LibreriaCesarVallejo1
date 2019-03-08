@@ -1,0 +1,265 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.head.logo figure img{
+	width: 150px;
+}
+.espmenu{
+padding-left: 300px;
+}
+nav{
+	background: #eb2e3b;
+}
+nav .menu{
+	font-family: 'Bree Serif', serif;
+	width: 100%;
+	text-align: center;
+
+}
+
+nav .menu li {
+	display: inline-block;
+	padding: 15px;
+
+	height: 50px;
+	border-radius: 10px;
+
+}
+nav .menu li a{
+	text-decoration: none;
+	color: #fff;
+}
+nav .menu li:hover{
+	background: #c7454e;
+	z-index: 100;
+}
+.menu .area-menu-options .sub-menu{
+	display: none;
+	text-align: left;
+}
+.menu .area-menu-options:hover .sub-menu.one{
+	display: block;
+	position:absolute;
+	background: #eb2e3b;
+	padding: 5px;
+	z-index: 100;
+} 
+.sub-menu.one li{
+	display: block;
+}
+.area-menu-options .area-menu-options-one:hover .sub-menu.two{
+	display: block;
+	position:absolute;
+	background: #eb2e3b;
+	padding: 5px;
+	z-index: 100;
+}
+.sub-menu.two li{
+	display: block;
+}
+/*contenedor*/
+.contenedor h1{
+text-align: center;
+}
+.contenedor.one{
+	margin-bottom: 500px;
+}
+/*Sliders*/
+#slide-wrap .slider{
+    margin-top: 50000px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.slide-wrap .slider1 .slide-img div{
+	display: inline-block;
+} 
+.slider1 .slide-img img{
+width: 100%;
+}
+
+/*footer*/
+footer{
+	width: 100%;
+	background: #202020;
+	color:#fff;
+}
+.container-footer-all .container-body{
+	padding-left: 500px;
+}
+.container-footer-all{
+	width: 100%;
+	margin: auto;
+	font-family: 'Prata', serif;
+}
+.container-body{
+	display: block;
+}
+.container-body div{
+	padding: 15px;
+}
+
+.colum2{
+	max-width: 400px;
+}
+.colum2 h2{
+	font-size: 22px;
+}
+.colum3 .row2 label {
+	color: #fff;
+}
+.colum2 .row{
+	margin-top: 20px;
+	display: flex;
+}
+.row img{
+	width: 36px;
+	height: 36px;
+}
+.row2 img{
+	width: 36px;
+	height: 36px;
+}
+.cont.one{
+	padding-top: 9000px;
+}
+/*main*/
+
+
+.main h1{
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	color: #eb2e3b;
+	margin-bottom: 60px;
+	margin-top: 30px;
+	font-family: 'Bitter', serif;
+}
+.main h1::after,h1::before{
+	content: '';
+	position: absolute;
+	width: 900px;
+	height: 4px;
+	background-color: currentColor;
+	top:0.3cm;
+	transform: scale(0);
+	transition: all 0.2s ease-in ;
+
+}
+.main h1:hover::before, h1:hover::after{
+	transform: scale(1);
+}
+.main h1::before{
+	left: -920px;
+}
+.main h1::after{
+	right: -920px;
+}
+/*nosotros*/
+.parent{
+	background: #fff;
+	padding-right: 10%;
+	padding-left: 10%;
+	display:inline-block;
+	font-family: 'Quicksand', sans-serif;
+}
+.parent .child-one{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+.parent .child-one section{
+	background: #fff;
+	padding: 5%;
+
+	border-top: solid;
+	color: #eb2e3b;
+
+}
+.parent .child-one section h3{
+	color: #eb2e3b;
+	font-size: 200%
+
+}
+.parent .child-one section p{
+	color: #000;
+	text-align: justify;
+
+}
+.parent .child-two{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+/*Ciencias*/
+.area-items{
+	padding-left: 80px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.area-items .items{
+	width: 30%;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.area-items .items figure{
+	color: #000;
+	width: 100%;
+	font-family: 'Domine', serif;
+}
+/*search*/
+
+@media only screen and (max-width: 600px) {
+	body {
+		background: yellow;
+	}
+	.container-footer-all .container-body{
+		padding-left: 0px;
+	}
+	.espmenu{
+		padding-left: 0px;
+	}
+	.area-items {
+		padding: 0px
+	}
+	.area-items .items {
+	    width: 35%;
+	    vertical-align: top;
+	    padding-bottom: 20px;
+	}
+}
+@media only screen and (min-width: 600px) {
+	body {
+		background: blue;	
+	}
+	.espmenu{
+		padding-left: 0px;
+	}	
+	.area-items .items {
+	    width: 35%;
+	    vertical-align: top;
+	    padding-bottom: 20px;
+	}
+}
+@media only screen and (min-width: 678px) {
+	body {
+		background: orange;
+	}
+}
+@media only screen and (min-width: 992px) {
+	body {
+		background: orange;
+	
+}
+@media only screen and (min-width: 1200px) {
+	body {
+		background: white;
+	}
+	.area-items .items{
+	width: 30%;
+	display: inline-block;
+	padding-left: 30px;
+	padding-bottom: 100px;
+}
+}
